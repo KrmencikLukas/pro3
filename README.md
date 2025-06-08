@@ -44,6 +44,18 @@ Content-Type: application/json
 }
 ```
 
+### Error Response
+
+```
+{
+    "type": "ERROR",
+    "data": {
+        "error": 401,
+        "documentationLink": "https://sps-prosek-6.gitbook.io/projekt-api"
+    }
+}
+```
+
 Save the token – you'll use it to access other endpoints.
 
 ## Step 3: Use Your Token
@@ -56,10 +68,7 @@ Authorization: Bearer your_JWT_token_here
 
 ## Error Codes
 
-| Code | Meaning                                                  |
-| ---- | -------------------------------------------------------- |
-| 401  | Invalid UID or Secret                                    |
-| 403  | Missing or invalid token                                 |
-| 503  | Database error                                           |
-| 504  | Offset parameter is not valid                            |
-| 505  | Limit parameter is not valid or general processing error |
+| Code | Meaning               |
+| ---- | --------------------- |
+| 401  | Invalid UID or Secret |
+| 500  | Internal Server Error |

@@ -16,7 +16,7 @@ description: Provides basic information about the API and data.
 <pre class="language-javascript"><code class="lang-javascript"><strong>Content-Type: application/json; charset=utf-8
 </strong></code></pre>
 
-<table><thead><tr><th width="361">Parameter</th><th>Description</th></tr></thead><tbody><tr><td>Request Parameters</td><td>No input data required</td></tr><tr><td>Authentication</td><td>No authentication required</td></tr><tr><td>Request Method</td><td>GET</td></tr></tbody></table>
+<table><thead><tr><th width="361">Parameter</th><th>Description</th></tr></thead><tbody><tr><td>Request Parameters</td><td>No input data required</td></tr><tr><td>Authentication</td><td>Bearer token <a data-mention href="./">.</a></td></tr><tr><td>Request Method</td><td>GET</td></tr></tbody></table>
 
 
 
