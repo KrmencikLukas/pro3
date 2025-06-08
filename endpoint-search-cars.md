@@ -113,3 +113,4 @@ The API responds with a JSON object containing list of cars.
 | `501`      | Error while reporting an error   |
 | `502`      | sendResponse failed              |
 | `551`      | getCarMetaValue failed           |
+| 403        | Invalid or expired token         |

@@ -71,5 +71,5 @@ The API responds with a JSON object containing general information about the sys
 
 ### **Error codes Explanation**
 
-<table><thead><tr><th width="137">Error Code</th><th>Error Description</th><th>Solution</th></tr></thead><tbody><tr><td>501</td><td>Error retrieving server time</td><td>Contact support</td></tr><tr><td>502</td><td>Error fetching the last cron update</td><td>Contact support</td></tr><tr><td>503</td><td>Error counting records in the database</td><td>Contact support</td></tr></tbody></table>
+<table><thead><tr><th width="137">Error Code</th><th>Error Description</th><th>Solution</th></tr></thead><tbody><tr><td>501</td><td>Error retrieving server time</td><td>Contact support</td></tr><tr><td>502</td><td>Error fetching the last cron update</td><td>Contact support</td></tr><tr><td>503</td><td>Error counting records in the database</td><td>Contact support</td></tr><tr><td>403</td><td>Invalid or expired token</td><td><a data-mention href="./">.</a></td></tr></tbody></table>
 
